@@ -15,6 +15,7 @@
         },
         "composer-scripts": {
           "cache:clear": "symfony-cmd"
+
         }
       },
 
