@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "koroalen/hero-payment-system-bundle": [
+      "0.1"
+    ]
+  },
+  "branch": "master",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/Koroalen/symfony-recipes",
+    "origin_template": "{package}:{version}@github.com/Koroalen/symfony-recipes:master",
+    "recipe_template": "https://api.github.com/repos/Koroalen/symfony-recipes/contents/{package_dotted}.{version}.json"
+  }
+}
