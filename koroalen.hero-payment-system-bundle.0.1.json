@@ -18,7 +18,7 @@
         }
       },
 
-      "ref": "%echo bin2hex(random_bytes(20));%"
+      "ref": "d2ac27ad1e6c047d0ae08106613eb81db603487f"
     }
   }
 }
