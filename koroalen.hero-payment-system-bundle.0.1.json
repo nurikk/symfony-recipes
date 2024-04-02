@@ -11,14 +11,12 @@
           "config/routes/payment_system.yaml": "%CONF_DIR%/routes/payment_system.yaml"
         },
         "copy-from-recipe": {
-          "config/": "%CONFIG_DIR%/",
+          "config/": "%CONFIG_DIR%/"
         },
-
-
         "composer-scripts": {
           "./bin/console cache:clear": "script "
 
-          
+
         }
       },
 
