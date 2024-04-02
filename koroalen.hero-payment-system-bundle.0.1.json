@@ -3,7 +3,7 @@
     "koroalen/hero-payment-system-bundle": {
       "manifest": {
         "bundles": {
-          "Hero\\PaymentSystem\\PaymentSystemBundle\\": [
+          "Hero\\PaymentSystem\\PaymentSystemBundle": [
             "all"
           ]
         },
