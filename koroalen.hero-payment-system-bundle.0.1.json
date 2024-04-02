@@ -12,6 +12,13 @@
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%/",
+        },
+
+
+        "composer-scripts": {
+          "./bin/console cache:clear": "script "
+
+          
         }
       },
 
