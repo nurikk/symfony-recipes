@@ -14,13 +14,12 @@
           "config/": "%CONFIG_DIR%/"
         },
         "composer-scripts": {
-          "./bin/console cache:clear": "script "
-
-
+          "./bin/console cache:clear": "script",
+          "cache:clear": "symfony-cmd"
         }
       },
 
-      "ref": "6399899235c8e5507f6af0235a4a0ccb25c869c8"
+      "ref": "echo bin2hex(random_bytes(20));",
     }
   }
 }
