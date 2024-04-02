@@ -8,13 +8,13 @@
           ]
         },
         "copy-from-package": {
-          "config/routes/payment_system.yaml": "%CONF_DIR%/routes/payment_system.yaml"
+          "config/routes/payment_system.yaml": "%CONFIG_DIR%/routes/payment_system.yaml"
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%/"
         },
         "composer-scripts": {
-          "cache:clear": "symfony-cmd",
+          "cache:clear": "symfony-cmd"
         }
       },
 
