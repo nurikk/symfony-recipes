@@ -5,7 +5,7 @@
     ]
   },
   "branch": "master",
-  "is_contrib": false,
+  "is_contrib": true,
   "_links": {
     "repository": "github.com/Koroalen/symfony-recipes",
     "origin_template": "{package}:{version}@github.com/Koroalen/symfony-recipes:master",
