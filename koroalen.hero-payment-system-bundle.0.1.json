@@ -14,8 +14,8 @@
           "config/": "%CONFIG_DIR%/"
         },
         "composer-scripts": {
-          "./bin/console cache:clear": "script",
-          "cache:clear": "symfony-cmd"
+          "cache:clear": "symfony-cmd",
+          "cache:clear": "script"
         }
       },
 
