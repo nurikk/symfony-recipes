@@ -11,14 +11,14 @@
           "config/routes/payment_system.yaml": "%CONFIG_DIR%/routes/payment_system.yaml"
         },
         "copy-from-recipe": {
-          "config/": "%CONFIG_DIR%/"
+          "config/": "%CONFIG_DIR%/1111/"
         },
         "composer-scripts": {
           "cache:clear": "symfony-cmd"
         }
       },
 
-      "ref": "d2ac27ad1e6c047d0ae08106613eb81db603487c"
+      "ref": "d2ac27ad1e6c047d0ae08106613eb81db603487e"
     }
   }
 }
