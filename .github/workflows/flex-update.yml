@@ -16,5 +16,5 @@ jobs:
   call-flex-update:
     uses: ./.github/workflows/callable-flex-update.yml
     with:
-      contrib: true
+      contrib: false
       branch: master
