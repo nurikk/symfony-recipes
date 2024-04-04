@@ -1,5 +1,8 @@
 name: Update Flex endpoint
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
