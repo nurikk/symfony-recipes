@@ -1,0 +1,28 @@
+{
+    "manifests": {
+        "koroalen/hero-payment-system-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Hero\\PaymentSystem\\PaymentSystemBundle\\PaymentSystemBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "copy-from-package": {
+                    "config/routes/payment_system.yaml": "%CONFIG_DIR%/routes/payment_system.yaml"
+                }
+            },
+            "files": {
+                "config/ainur.yaml": {
+                    "contents": [
+                        "recipes/koroalen/hero-payment-system-bundle/0.1/config/ainur.yaml"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "df65e932a3c7d545a5a1b3134d30da22fdf6f910"
+        }
+    }
+}
