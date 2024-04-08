@@ -1,9 +1,0 @@
-{
-  "recipes": {
-    "koroalen/hero-payment-system-bundle": [
-      "0.1"
-    ]
-  },
-  "branch": "master",
-  "is_contrib": false
-}
