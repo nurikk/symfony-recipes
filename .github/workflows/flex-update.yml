@@ -1,8 +1,5 @@
 name: Update Flex endpoint
 
-permissions:
-  contents: write
-
 on:
   push:
     branches:
@@ -14,7 +11,6 @@ defaults:
 
 jobs:
   call-flex-update:
-    uses: ./.github/workflows/callable-flex-update.yml
+    uses: symfony/recipes/.github/workflows/callable-flex-update.yml@main
     with:
-      contrib: false
-      branch: master
+      contrib: true
